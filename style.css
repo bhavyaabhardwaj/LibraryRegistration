@@ -1,0 +1,82 @@
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+.container {
+    width: 430px;
+    max-width: 95%;
+    margin: auto;
+    background-color: #fff5ce;
+    padding: 22px;
+    border: 1px solid #efd9a0;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #a34f68;
+    font-weight: 700;
+}
+
+p {
+    text-align: center;
+    color: #98717a;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+    color: #805363;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px;
+    margin-top: 5px;
+    border: 1px solid #e8c5c9;
+    border-radius: 5px;
+    background-color: #fffdf5;
+    color: #654b52;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border: 1px solid #d989a0;
+}
+
+.gender input {
+    width: auto;
+    accent-color: #c66e88;
+}
+
+button {
+    width: 100%;
+    padding: 11px;
+    margin-top: 18px;
+    background-color: #d989a0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: #bd6e86;
+}
+
+#message {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}

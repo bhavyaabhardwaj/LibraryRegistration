@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Library Card Registration</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Library Card Registration</h2>
+        <p>Fill in your details to apply for a library card.</p>
+
+        <form onsubmit="return validateForm()">
+
+            <label>Student Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label>Roll Number</label>
+            <input type="text" id="roll" placeholder="Enter roll number">
+
+            <label>Course</label>
+            <select id="course">
+                <option value="">Select Course</option>
+                <option>B.Tech CSE</option>
+                <option>B.Tech IT</option>
+                <option>BCA</option>
+                <option>BBA</option>
+                <option>Other</option>
+            </select>
+
+            <label>Email ID</label>
+            <input type="text" id="email" placeholder="Enter email">
+
+            <label>Mobile Number</label>
+            <input type="text" id="mobile" placeholder="Enter mobile number">
+
+            <label>Date of Birth</label>
+            <input type="date" id="dob">
+
+            <label>Gender</label>
+            <div class="gender">
+                <input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name="gender" value="Female"> Female
+                <input type="radio" name="gender" value="Other"> Other
+            </div>
+
+            <label>Address</label>
+            <textarea id="address" rows="3"
+                placeholder="Enter your address"></textarea>
+
+            <button type="submit">Submit Registration</button>
+
+        </form>
+
+        <div id="message"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
